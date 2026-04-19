@@ -50,7 +50,7 @@ body {
         border-radius: 5px;
     }
 
-/* El menú ocupa todo el espacio disponible */
+
 #menuAccordion {
     flex: 1;
 }
@@ -342,7 +342,7 @@ body {
     }
 }
 
-/* ========== CORRECCIONES ADICIONALES ========== */
+
 .navbar .text-white {
     color: white !important;
 }

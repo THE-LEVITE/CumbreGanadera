@@ -39,12 +39,12 @@
                         </div>
                     </div>
 
-                    <!-- Menú dinámico (crece para ocupar espacio) -->
+                    <!-- Menú dinámico-->
                     <div id="menuAccordion" style="flex: 1;">
                         <asp:Literal ID="litMenu" runat="server"></asp:Literal>
                     </div>
 
-                    <!-- Cerrar Sesión (PARTE INFERIOR) -->
+                    <!-- Cerrar Sesión-->
                     <div class="cerrar-sesion-container" style="margin-top: auto !important;">
                         <asp:LinkButton ID="lbCerrar" runat="server"
                             class="cerrar-btn nav-link d-flex align-items-center justify-content-center justify-content-sm-start text-danger">
@@ -94,7 +94,7 @@
                         </div>
                     </nav>
 
-                    <!-- BOTÓN HAMBURGUESA PARA MÓVIL (debajo del navbar) -->
+                    <!-- BOTÓN HAMBURGUESA PARA MÓVIL-->
                     <div class="mobile-menu-button d-md-none p-2">
                         <button class="btn btn-success w-100" type="button" onclick="toggleSidebar()"
                             style="background-color: rgb(5, 198, 5); border: none; border-radius: 10px; padding: 10px;">
@@ -127,8 +127,7 @@
                 overlay.classList.add('active');
             }
         }
-
-        // Cerrar sidebar al redimensionar a desktop
+        
         window.addEventListener('resize', function () {
             var sidebar = document.getElementById('sidebar');
             var overlay = document.getElementById('sidebarOverlay');
