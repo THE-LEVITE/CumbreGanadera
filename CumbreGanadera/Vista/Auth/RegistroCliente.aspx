@@ -19,12 +19,12 @@
                 <div class="row">
                     <div class="col-md-6">
                         <label class="form-label">Nombre</label>
-                        <asp:TextBox runat="server" CssClass="form-control mb-3" placeholder="Primer nombre"></asp:TextBox>
+                        <asp:TextBox runat="server" ID="txtNombre" CssClass="form-control mb-3" placeholder="Primer nombre"></asp:TextBox>
                     </div>
 
                     <div class="col-md-6">
                         <label class="form-label">Apellido</label>
-                        <asp:TextBox runat="server" CssClass="form-control mb-3" placeholder="Apellidos"></asp:TextBox>
+                        <asp:TextBox runat="server" ID="txtApellido" CssClass="form-control mb-3" placeholder="Apellidos"></asp:TextBox>
                     </div>
                 </div>
 
@@ -33,7 +33,7 @@
                         <label class="form-label">Correo Electrónico</label>
                         <div class="input-icon mb-3">
                             <i class="bi bi-envelope"></i>
-                            <asp:TextBox runat="server" CssClass="form-control" placeholder="ejemplo@gmail.com"></asp:TextBox>
+                            <asp:TextBox runat="server" ID="txtEmail" CssClass="form-control" placeholder="ejemplo@gmail.com"></asp:TextBox>
                         </div>
                     </div>
 
@@ -41,7 +41,7 @@
                         <label class="form-label">Teléfono</label>
                         <div class="input-icon mb-3">
                             <i class="bi bi-telephone"></i>
-                            <asp:TextBox runat="server" CssClass="form-control" placeholder="+57 300 000 0000"></asp:TextBox>
+                            <asp:TextBox runat="server" ID="txtCelular" CssClass="form-control" placeholder="+57 300 000 0000"></asp:TextBox>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                 <label class="form-label">Ciudad</label>
                 <div class="input-icon mb-3">
                     <i class="bi bi-geo-alt"></i>
-                    <asp:TextBox runat="server" CssClass="form-control" placeholder="Ciudad de residencia"></asp:TextBox>
+                    <asp:TextBox runat="server" ID="txtCiudad" CssClass="form-control" placeholder="Ciudad de residencia"></asp:TextBox>
                 </div>
 
                 <div class="row">
@@ -57,7 +57,7 @@
                         <label class="form-label">Contraseña</label>
                         <div class="input-icon mb-3">
                             <i class="bi bi-lock"></i>
-                            <asp:TextBox runat="server" TextMode="Password" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox runat="server" ID="txtContraseña" TextMode="Password" CssClass="form-control"></asp:TextBox>
                         </div>
                     </div>
 
@@ -65,7 +65,7 @@
                         <label class="form-label">Confirmar contraseña</label>
                         <div class="input-icon mb-3">
                             <i class="bi bi-shield-lock"></i>
-                            <asp:TextBox runat="server" TextMode="Password" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox runat="server" ID="txtConfContraseña" TextMode="Password" CssClass="form-control"></asp:TextBox>
                         </div>
                     </div>
                 </div>
